@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="231684" started-at="2022-10-12T10:00:43 IST" finished-at="2022-10-12T10:04:34 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="231684" started-at="2022-10-12T10:00:43 IST" finished-at="2022-10-12T10:04:34 IST">
+      <class name="testcase.Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcase.Login@11fc564b]" name="setUp" is-config="true" duration-ms="142854" started-at="2022-10-12T10:00:43 IST" finished-at="2022-10-12T10:03:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clogin(java.lang.String)[pri:0, instance:testcase.Login@11fc564b]" name="clogin" duration-ms="53215" started-at="2022-10-12T10:03:24 IST" data-provider="test" finished-at="2022-10-12T10:04:17 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1234510003]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clogin -->
+        <test-method status="PASS" signature="addfarmertest()[pri:0, instance:testcase.Login@11fc564b]" name="addfarmertest" duration-ms="16941" started-at="2022-10-12T10:04:18 IST" finished-at="2022-10-12T10:04:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addfarmertest -->
+      </class> <!-- testcase.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
